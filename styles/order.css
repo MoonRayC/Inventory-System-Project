@@ -1,0 +1,27 @@
+.card {
+    padding: 20px;
+    max-width: 80rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(173, 26, 26, 0.1);
+}
+
+
+
+.table td {
+    border: none;
+}
+
+.mb-2 .input-group .input-group-text {
+    width: 10rem;
+    justify-content: flex-end;
+}
+
+.col-md-6 .mb-3 .input-group .input-group-text {
+    width: 7.5rem;
+    justify-content: flex-end;
+}
+
+.mb-3 .input-group .input-group-text {
+    width: 9rem;
+    justify-content: flex-end;
+}

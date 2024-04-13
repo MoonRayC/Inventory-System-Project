@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.profile-container, .card {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #d61414;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(173, 26, 26, 0.1);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info div {
+    margin-bottom: 10px;
+}
+
+.form-floating {
+    margin-bottom: 10px;
+}

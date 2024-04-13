@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    overflow-x: hidden;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+}
+
+#sidebar ul li.active>a,
+#sidebar ul li>a:hover {
+    background: #343a40;
+    color: #fff;
+}
+
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    padding: 15px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        overflow-y: auto;
+    }
+
+    #sidebar ul {
+        position: absolute;
+        width: 80px;
+    }
+
+    #sidebar ul.components {
+        padding: 0;
+    }
+
+    #sidebar ul li a {
+        padding: 15px;
+    }
+
+    #content {
+        width: calc(100% - 80px);
+        padding: 15px;
+        transition: all 0.3s;
+        margin-left: 80px;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
